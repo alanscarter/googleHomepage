@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+
 * {
     margin:0;
     padding:0;
+    outline: none;
+       
 }
 
 
@@ -37,13 +41,33 @@ a:hover {
 }
 
 
-.searchBar {
-
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-  padding-top:109px;
-  width:100px;
- 
+.footer {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color:#D3D3D3;
 }
 
+.wrapper {
+
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  max-width: 200px;
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: start;
+}
+
+.wrapper .input {
+  width: 100%;
+  padding: 10px 10px;
+  border-radius: 5px;
+  font-weight:bold'
+  border: none;
+
+}
