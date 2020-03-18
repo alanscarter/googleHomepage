@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+
 
 * {
     margin:0;
@@ -40,6 +40,12 @@ a:hover {
 
 }
 
+.searchbar {
+ margin-left: 870px;
+ margin-right: 870px;
+
+}
+
 
 .footer {
   width: 100%;
@@ -49,25 +55,13 @@ a:hover {
   background-color:#D3D3D3;
 }
 
-.wrapper {
+.buttons {
+ width: 1100px;
+ position:relative;
 
-  position: absolute;
-  top: 50%;
-  left:50%;
-  transform: translate(-50%, -50%);
-  max-width: 200px;
-  width: 100%;
-  padding: 15px;
-  border-radius: 5px;
-  display: flex;
-  justify-content: start;
 }
 
-.wrapper .input {
-  width: 100%;
-  padding: 10px 10px;
-  border-radius: 5px;
-  font-weight:bold'
-  border: none;
-
+.buttons button {
+  left:200px;
+  
 }
