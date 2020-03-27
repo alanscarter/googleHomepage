@@ -42,9 +42,19 @@ a:hover {
 }
 
 .searchbar {
- margin-left: 870px;
- margin-right: 870px;
+ 
+  position: absolute;
 
+  top: 300px;
+  
+  left: 700px;
+  
+}
+
+.input {
+  border-radius:5px;
+  width:500px;
+  padding: 10px;
 }
 
 
@@ -57,17 +67,26 @@ a:hover {
 }
 
 
-.feeling-Lucky {
-  position:absolute;
-    top: 50%;
-    left: 50%;
-    background-color:#D3D3D3;
-}
 
-.google-Search {
-  position:absolute;
-  top: 50%;
+
+
+.button1 {
+  color: #5F6368;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  padding: 10px;
+  position: absolute;
+  top: 44%;
   left: 43%;
-  background-color:#D3D3D3;
-
 }
+
+.button2 {
+  color: #5F6368;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  padding: 10px;
+  position: absolute;
+  top: 44%;
+  left: 50%;
+}
+
