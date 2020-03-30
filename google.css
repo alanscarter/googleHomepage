@@ -78,6 +78,7 @@ a:hover {
   position: absolute;
   top: 44%;
   left: 43%;
+  border: white;
 }
 
 .button2 {
@@ -88,5 +89,13 @@ a:hover {
   position: absolute;
   top: 44%;
   left: 50%;
+  border: white;
 }
 
+button:hover {
+ 
+  
+  border: 1px solid #5F6368; 
+  
+
+}
